@@ -35,6 +35,7 @@ New library functions
   * `isnothing(::Any)` function, to check whether something is a `Nothing`, returns a `Bool` ([#29679]).
   * `getpid(::Process)` method ([#24064]).
   * `eachrow`, `eachcol` and `eachslice` functions provide efficient iterators over slices of arrays ([#29749]).
+  * `fieldtypes(T::Type)` which return the declared types of the field in type T ([#29600]).
 
 Standard library changes
 ------------------------
