@@ -85,6 +85,7 @@ Standard library changes
   * `current_project()` now searches the parent directories of a Git repository for a `Project.toml` file.
     This also affects the behavior of the `--project` command line option when using the default
     `--project=@.` ([#29108]).
+  * Exponentiation operator `^` now supports raising a `Irrational` to an `AbstractMatrix` power ([#29782]).
 
 Compiler/Runtime improvements
 -----------------------------
