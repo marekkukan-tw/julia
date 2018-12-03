@@ -35,6 +35,8 @@ New library functions
   * `isnothing(::Any)` function, to check whether something is a `Nothing`, returns a `Bool` ([#29679]).
   * `getpid(::Process)` method ([#24064]).
   * `eachrow`, `eachcol` and `eachslice` functions provide efficient iterators over slices of arrays ([#29749]).
+  * Predicate functions `Sys.isfreebsd`, `Sys.isopenbsd`, `Sys.isnetbsd`, and `Sys.isdragonfly` for
+    detecting BSD systems have been added ([#30249]).
 
 Standard library changes
 ------------------------
@@ -82,3 +84,4 @@ Deprecated or removed
 [#28878]: https://github.com/JuliaLang/julia/issues/28878
 [#29440]: https://github.com/JuliaLang/julia/issues/29440
 [#29442]: https://github.com/JuliaLang/julia/issues/29442
+[#30249]: https://github.com/JuliaLang/julia/issues/30249
